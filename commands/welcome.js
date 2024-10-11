@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 async function welcomeNewMembers(sock, chatId, newMembers) {
-    let welcomeText = 'Welcome ';
+    let welcomeText = 'Hi MimoWolf Welcomes you ';
     newMembers.forEach((member) => {
         welcomeText += `@${member.split('@')[0]} `;
     });
